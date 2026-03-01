@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搬砖闹钟 - BrickClock</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f5f5f7; color: #1d1d1f; }
+        .container { max-width: 680px; margin: 0 auto; padding: 48px 24px; text-align: center; }
+        h1 { font-size: 2em; margin-bottom: 8px; }
+        .tagline { color: #86868b; font-size: 1.1em; margin-bottom: 32px; }
+        .links { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+        .links a {
+            display: inline-block; padding: 12px 28px; border-radius: 24px;
+            background: #1d1d1f; color: #fff; text-decoration: none; font-size: 0.95em;
+            transition: transform 0.2s;
+        }
+        .links a:hover { transform: translateY(-2px); }
+        .links a.secondary { background: #e8e8ed; color: #1d1d1f; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>搬砖闹钟</h1>
+        <p class="tagline">智能识别节假日调休，打工人必备</p>
+        <div class="links">
+            <a href="privacy-policy.html">隐私政策</a>
+            <a href="https://github.com/songyufei/Clock/issues" class="secondary">技术支持</a>
+        </div>
+    </div>
+</body>
+</html>
